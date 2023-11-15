@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController2 {
 @RequestMapping("/hello2")
 	public String display()
-	{
+	{ 
 		return "viewpage2";
 	}	
 }
